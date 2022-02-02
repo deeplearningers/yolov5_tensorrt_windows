@@ -1,0 +1,2 @@
+LIBRARY yolov5
+EXPORTS yolov5trt

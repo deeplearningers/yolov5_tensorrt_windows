@@ -1,0 +1,5 @@
+D:\yolo\test\test\bin\Release\test.exe.config
+D:\yolo\test\test\bin\Release\test.exe
+D:\yolo\test\test\bin\Release\test.pdb
+D:\yolo\test\test\obj\Release\test.exe
+D:\yolo\test\test\obj\Release\test.pdb

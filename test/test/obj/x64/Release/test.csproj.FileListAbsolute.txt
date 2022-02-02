@@ -1,0 +1,6 @@
+D:\yolo\test\test\bin\x64\Release\test.exe.config
+D:\yolo\test\test\bin\x64\Release\test.exe
+D:\yolo\test\test\bin\x64\Release\test.pdb
+D:\yolo\test\test\obj\x64\Release\test.exe
+D:\yolo\test\test\obj\x64\Release\test.pdb
+D:\yolo\test\test\obj\x64\Release\test.csprojResolveAssemblyReference.cache

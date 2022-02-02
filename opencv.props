@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>D:\TensorRT-7.0.0.11\include;C:\opencv\build\include;C:\opencv\build\include\opencv2;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\TensorRT-7.0.0.11\lib;C:\opencv\build\x64\vc14\lib;$(LibraryPath)</LibraryPath>
+    <ReferencePath>D:\TensorRT-7.0.0.11\lib;C:\opencv\build\x64\vc14\lib;$(ReferencePath)</ReferencePath>
+    <ExecutablePath>C:\opencv\build\bin;D:\TensorRT-7.0.0.11\bin;$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>opencv_world452.lib;opencv_world452d.lib;myelin64_1.lib;nvinfer.lib;nvinfer_plugin.lib;nvonnxparser.lib;nvparsers.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\TensorRT-7.0.0.11\lib;C:\opencv\build\x64\vc14\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
